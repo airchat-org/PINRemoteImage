@@ -10,7 +10,7 @@
 
 #if PIN_WEBP
     #if SWIFT_PACKAGE
-        @import libwebp;
+        #import "webp/demux.h"
     #else
         #import "webp/demux.h"
     #endif

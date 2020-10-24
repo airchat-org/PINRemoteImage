@@ -13,7 +13,7 @@
 #import "NSData+ImageDetectors.h"
 
 #if SWIFT_PACKAGE
-@import libwebp;
+#import "webp/demux.h"
 #else
 #import "webp/demux.h"
 #endif

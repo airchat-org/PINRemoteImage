@@ -7,7 +7,7 @@
 //
 
 #if SWIFT_PACKAGE
-@import PINOperation;
+#import "PINOperation.h"
 #else
 #import <PINOperation/PINOperation.h>
 #endif

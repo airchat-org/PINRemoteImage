@@ -10,7 +10,7 @@
 #if PIN_TARGET_MAC
 
 #if SWIFT_PACKAGE
-@import CoreVideo.CVDisplayLink;
+#import <CoreVideo/CoreVideo.h>
 #else
 #import <CoreVideo/CoreVideo.h>
 #endif

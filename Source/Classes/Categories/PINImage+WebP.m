@@ -11,7 +11,7 @@
 #if PIN_WEBP
 
 #if SWIFT_PACKAGE
-@import libwebp;
+#import "webp/decode.h"
 #else
 #import "webp/decode.h"
 #endif
